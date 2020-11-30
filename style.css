@@ -848,7 +848,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-color: white;
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
@@ -856,7 +856,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
