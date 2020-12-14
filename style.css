@@ -683,7 +683,7 @@ label,
 }
 
 a {
-    color: #24170E; "ajout d'une couleur"
+    color: #000000; 
     font-family: "helvetica";
     font-weight: 400;
 }
@@ -805,20 +805,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C34E18;
 }
 
 .tc-white {
-    color: #FCFCFC!important;   "modification de la couleur"
+    color: #FCFCFC!important;   
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C34E18;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #983B10!important;
     color: #FFFFFF!important;
 }
 
@@ -882,13 +882,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
